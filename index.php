@@ -24,7 +24,7 @@ if (sizeof($request_array['events']) > 0) {
       'messages' => [
         [
           'type' => 'text',
-          'text' => json_encode($request_array['events'])
+          'text' => 'อิหยังวะ'
         ]
       ]
     ];
@@ -47,3 +47,4 @@ function send_reply_message($url, $post_header, $post_body)
 
   return $result;
 }
+
