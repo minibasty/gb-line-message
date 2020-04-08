@@ -1,9 +1,4 @@
 {
-    "name": "bnt/line-message",
-    "authors": [{
-        "name": "Nopparat",
-        "email": "fanta.orange_@hotmail.com"
-    }],
     "require": {
         "php": "^7.1.0"
     }
