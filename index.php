@@ -19,7 +19,7 @@ if (sizeof($request_array['events']) > 0) {
 
     $reply_message = '';
     $reply_token = $event['replyToken'];
-    $text = $event['replyToken']['userId'];
+    $text = $event['source']['userId'];
     $data = [
        'replyToken' => $reply_token,
        'messages' => [['type' => 'text', 'text' => $text ]]
