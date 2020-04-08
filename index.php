@@ -1,6 +1,6 @@
 <?php
 // URL API LINE
-$API_URL = 'https://api.line.me/v2/bot/message';
+$API_URL = 'https://api.line.me/v2/bot/message/reply';
 // ใส่ Channel access token (long-lived)
 $ACCESS_TOKEN = 'vwZwFMgCgqA203Q0LGzvLGEONYYHr5d9MkhE3anYGz+iN8rKNwYMVYLGaXvFjpw94kCIsKoRQo6gWyP+6IVSQ33j9/IaA/O/0+8EvjbNfT2CTwGKpBd48LwRVFexOgbRtBdPpXrr5/UbFc/RUQ1HtgdB04t89/1O/w1cDnyilFU=';
 // ใส่ Channel Secret
