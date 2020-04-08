@@ -1,10 +1,10 @@
 <?php
 // URL API LINE
-$API_URL = 'https://api.line.me/v2/bot/message/reply';
+$API_URL = 'https://api.line.me/v2/bot/message/';
 // ใส่ Channel access token (long-lived)
 $ACCESS_TOKEN = 'vwZwFMgCgqA203Q0LGzvLGEONYYHr5d9MkhE3anYGz+iN8rKNwYMVYLGaXvFjpw94kCIsKoRQo6gWyP+6IVSQ33j9/IaA/O/0+8EvjbNfT2CTwGKpBd48LwRVFexOgbRtBdPpXrr5/UbFc/RUQ1HtgdB04t89/1O/w1cDnyilFU=';
 // ใส่ Channel Secret
-$CHANNEL_SECRET = '4ef448a53aa718a0dfd22462577291bb';
+$CHANNEL_SECRET = 'c674a0cd44f9089e3985242719ae1f78';
 
 // Set HEADER
 $POST_HEADER = array('Content-Type: application/json', 'Authorization: Bearer ' . $ACCESS_TOKEN);
@@ -33,7 +33,6 @@ if (sizeof($request_array['events']) > 0) {
     echo "Result: " . $send_result . "\r\n";
   }
 }
-echo "OK";
 
 function send_reply_message($url, $post_header, $post_body)
 {
