@@ -24,7 +24,7 @@ if (sizeof($request_array['events']) > 0) {
       'messages' => [
         [
           'type' => 'text',
-          'text' => json_encode($event)
+          'text' => json_encode($reply_token['userId'])
         ]
       ]
     ];
